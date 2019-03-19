@@ -4853,7 +4853,7 @@
       <field type="uint16_t" name="resolution_v" units="pix">Vertical resolution (set to -1 for highest resolution possible)</field>
       <field type="uint32_t" name="bitrate" units="bits/s">Bit rate (set to -1 for auto)</field>
       <field type="uint16_t" name="rotation" units="deg">Video image rotation clockwise (0-359 degrees)</field>
-      <field type="char[160]" name="uri">Video stream URI (mostly for UDP/RTP)</field>
+      <field type="char[230]" name="uri">Video stream URI (mostly for UDP/RTP)</field>
     </message>
     <message id="299" name="WIFI_CONFIG_AP">
       <description>Configure AP SSID and Password.</description>
